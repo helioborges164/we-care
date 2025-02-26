@@ -96,3 +96,52 @@ main {
     background-color: #adff00;
     font-weight: 700;
 }
+
+@media screen and (max-width: 900px) {
+    header {
+        display: none;
+    }
+
+    main {
+        display: block;
+    }
+
+    .box-image img {
+        width: 380px;
+        margin: 0 auto;
+        display: block;
+        position: relative;
+        left: 0;
+        top: 45px;
+    }
+
+    .box-content {
+        width: 100%;
+    }
+
+    .box-content h1 {
+        font-size: 60px;
+        position: relative;
+        left: 0;
+        top: 50px;
+    }
+
+    .box-content h2 {
+        font-size: 34px;
+        position: relative;
+        left: 0;
+        top: 45px;
+    }
+
+    .box-content p {
+        display: none;
+    }
+
+    .box-content button {
+        position: relative;
+        left: 0;
+        top: 50px;
+        display: block;
+        margin: 0 auto;
+    }
+}
