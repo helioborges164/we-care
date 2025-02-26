@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Montserrat", serif;
+}
+
+header {
+    width: 100vw;
+    height: 8vh;
+    display: flex;
+    align-items: center;
+}
+
+header nav {
+    position: relative;
+    top: 25%;
+    left: 5%;
+    margin: 0 10px;
+
+}
+
+header nav a {
+    text-decoration: none;
+    color: #989D9C;
+    margin: 0 10px;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.btn-login {
+    position: relative;
+    top: 25%;
+    left: 5%;
+}
+
+.btn-login button {
+    font-size: 16px;
+    padding: 6px 12px;
+    border: none;
+    border-radius: 20px;
+    background-color: #665AE1;
+    color: #fff;
+}
+
+main {
+    margin-top: 100px;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+}
+
+.box-image img {
+    width: 480px;
+}
+
+.box-content {
+    width: 40%;
+}
+
+.box-content h1 {
+    text-align: center;
+    font-size: 80px;
+    color: #515151;
+    font-weight: 900;
+}
+
+.box-content h2 {
+    text-align: center;
+    font-size: 44px;
+    color: #515151;
+    font-weight: 500;
+    letter-spacing: 2px;
+}
+
+.box-content p {
+    text-align: center;
+    font-size: 22px;
+    font-weight: 400;
+    color: #848484;
+    margin-top: 10px;
+}
+
+.box-content button {
+    position: relative;
+    left: 40%;
+    margin-top: 50px;
+    font-size: 22px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 20px;
+    background-color: #adff00;
+    font-weight: 700;
+}
