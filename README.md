@@ -5,3 +5,5 @@
   <li>HTML</li>
   <li>CSS</li>
 </ul>
+
+<img src="https://github.com/helioborges164/we-care/blob/main/assets/desktop.png?raw=true">
